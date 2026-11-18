@@ -175,9 +175,9 @@ for size in subset_sizes:
     X_subset = X[selected_genes].to_numpy()
 
 
-    # -----------------------------------------------------
+    
     # Séparer les données par classe
-    # -----------------------------------------------------
+    
 
     class_data = {}
 
@@ -203,9 +203,9 @@ for size in subset_sizes:
         intra_distances[cancer_class] = intra
 
 
-    # -----------------------------------------------------
+    
     # Toutes les paires de classes
-    # -----------------------------------------------------
+    
 
     overlaps = []
 
@@ -239,9 +239,9 @@ for size in subset_sizes:
         )
 
 
-    # -----------------------------------------------------
+    
     # Résumé du sous-ensemble
-    # -----------------------------------------------------
+    
 
     overlaps = np.array(overlaps)
 
